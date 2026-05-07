@@ -5,11 +5,11 @@ import asyncio #비동기 처리를 위한 라이브러리
 
 from telegram import Bot # Telegram Bot 기능을 사용하기 위한 라이브러리
 
-telegram_id = 'Enter your chat ID here' #Telegram 채팅방 ID 입력
+telegram_id = '8602676478' #Telegram 채팅방 ID 입력
 
-my_token = 'Enter your bot token here' #BotFather에서 발급받은 Telegram Bot Token 입력
+my_token = '8680769702:AAFVD4D0avElpB6tEJwPrwEnUBY2XbDQhZY' #BotFather에서 발급받은 Telegram Bot Token 입력
 
-api_key = 'Enter your API key here' #OpenWeatherMap에서 발급받은 API Key 입력
+api_key = '8371076bd1820274bab96c5582eb7e41' #OpenWeatherMap에서 발급받은 API Key 입력
 
 bot = Bot(token=my_token) #Telegram Bot 객체 생성
 
